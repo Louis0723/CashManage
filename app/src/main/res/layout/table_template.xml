@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/round2"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:tag="類別"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/category"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:tag="支付對象"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/payTarget"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:tag="金額"
+        android:textSize="30dp"
+        android:paddingRight="50dp"
+        android:gravity="center|right"
+        android:id="@+id/amount"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:tag="經手人"
+        android:textSize="30dp"
+
+        android:gravity="center"
+        android:id="@+id/Publisher"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="100"
+            android:scaleType="centerInside"
+            android:tag="看圖"
+            android:textSize="30dp"
+            android:background="#000000FF"
+            android:gravity="center|right"
+            android:id="@+id/watch"
+            android:src="@drawable/photos"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="#00000000"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

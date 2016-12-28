@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">現金管理程式</string>
+    <string name="type_prompt">類別</string>
+</resources>

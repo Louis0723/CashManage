@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type">
+        <item>食材</item>
+        <item>酒水</item>
+        <item>系統月租費</item>
+        <item>耗材</item>
+        <item>雜支</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="type2">
+        <item>零用金</item>
+        <item>其他</item>
+    </string-array>
+</resources>
